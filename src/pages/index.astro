@@ -1,0 +1,17 @@
+---
+import '../styles/normalize.css';
+import '../styles/Layout.css';
+
+import Hero from '../components/Hero.astro';
+import NavBar from '../components/NavBar.astro';
+import Stadistics from '../components/Stadistics.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <NavBar />
+  <div class="container">
+    <Hero />
+    <Stadistics />
+  </div>
+</Layout>

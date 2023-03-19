@@ -1,0 +1,59 @@
+:root {
+    --text-color:#858585;
+  --text-color-primary: #fd5545;
+  --text-color-secondary: #fbb239;
+  --bg-color-primary: #fafafa;
+  --bg-color-secondary: #f5f5f5;
+}
+body {
+  font-family: "Basic", sans-serif !important;
+  background-color: var(--bg-color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monument Extended", sans-serif;
+}
+.title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.anio {
+  color: var(--text-color-primary);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.price{
+    color: var(--text-color-primary);
+}
+.bg-card{
+    background-color: var(--bg-color-secondary) !important;
+}
+.discount{
+    background-color:var(--text-color-primary);
+    color:white;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    right: 30px
+}
+
+.text-emphasis{
+    color: var(--text-color-primary) !important;
+}
+
+
+/* Class bootstrap */
+.btn-primary{
+    background-color: var(--text-color-primary) !important
+}
+.nav-link{
+    color: black!important;
+    margin: 0 10px 0 10px;
+}
+
